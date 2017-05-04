@@ -33,7 +33,6 @@ footer {
   bottom: 0;
   border-top: solid 5px #4aaaa5;
   padding-top: 10px;
-  clear: both;
   margin-bottom: 0;
 }
 
@@ -52,7 +51,7 @@ h1{
   top: 0;
   text-align: center;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  margin-left: 120px;
+  margin-left: 127px;
   margin-top: 22px;
   margin-bottom: 0px;
 }
@@ -66,6 +65,7 @@ h2 {
 p {
   color: #777777;
   line-height: 1.6;
+  padding: 10px;
 
 }
 
@@ -98,7 +98,7 @@ p {
   width: 200px;
   height: 200px;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 22px;
 }
 
 #contactBox {
@@ -136,4 +136,96 @@ p {
   margin-bottom: 10px;
   border-bottom: groove 1px #777777;
   font-weight: 16px;
+}
+
+#contactForm {
+  float: left;
+  width: 650px;
+  height: 500px;
+  background: #ffffff;
+  margin-left: 150px;
+  margin-right: 5px;
+  clear: top;
+  margin-top: 50px;
+  position: relative;
+  border: solid 1.5px #dddddd;
+}
+
+input {
+  position: relative;
+  display: block;
+  margin-left: 25px;
+}
+
+#message{
+  display: block;
+  width: 500px;
+  height: 150px;
+  margin-left: 25px;
+}
+
+label {
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+}
+
+#submit{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
+#galleryContainer {
+  float: left;
+  width: 650px;
+  background: #ffffff;
+  margin-left: 150px;
+  margin-right: 5px;
+  clear: top;
+  margin-top: 50px;
+  position: relative;
+  border: solid 1.5px #dddddd;
+  display: block;
+  position: relative;
+}
+
+.gallery {
+  float: left;
+  size: 90px;
+  margin: 10px;
+}
+
+.desc {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+}
+
+#mainContainer{
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+#portFolioFooter {
+  clear: both;
+  margin-bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #666666;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  border-top: solid 5px #4aaaa5;
+  padding-top: 10px;
+  margin-bottom: 0;
 }
