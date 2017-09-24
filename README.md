@@ -1,5 +1,5 @@
 # Portfolio
-A professional portfolio site created using HTML/CSS. [Please Click here visit the site.](https://kiranau.github.io/KiranUttarkar/)
+A professional portfolio site created using HTML/CSS. [Please Click here to visit the site.](https://kiranau.github.io/KiranUttarkar/)
 
 ***
 
